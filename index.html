@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Chat App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>🔴 Real-Time Chat App (WebSocket)</h2>
+        <div class="username-setup">
+            <input type="text" id="usernameInput" placeholder="Enter your name" />
+            <button onclick="setUsername()">Start Chat</button>
+        </div>
+        <div class="chat-box hidden">
+            <div id="chat" class="chat-window"></div>
+            <div id="typingStatus"></div>
+            <input id="messageInput" placeholder="Type a message..." oninput="sendTyping()" />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+        <button onclick="toggleTheme()">🌗 Toggle Dark Mode</button>
+    </div>
+    <audio id="ping" src="ping.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
