@@ -69,3 +69,4 @@ http://localhost:3000
 
 Open multiple tabs or devices to test real-time chat functionality
 OUTPUT
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f99218c1-7cb9-4e9a-b2d4-e94d76765dd2" />
