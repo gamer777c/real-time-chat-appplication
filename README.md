@@ -64,6 +64,7 @@ Advanced_WebSocket_Chat/
 ```bash
 npm install
 node server.js
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f99218c1-7cb9-4e9a-b2d4-e94d76765dd2" />
 Open your browser and go to:
 http://localhost:3000
 
